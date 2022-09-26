@@ -298,14 +298,14 @@ num
 
 member <- list(name=c("홍길동","유관순", age=c(35,25),
                       address=c("한양","충남"),gender=c("남자","여자"),
-                         htype=c("아파트","오피스텔")))  ## 수정필요함
+                      htype=c("아파트","오피스텔")))  ## 수정필요함
 member
 
 member$
-
-# 실습 : 리스트 객체에 함수 적용하기
-
-a <- list(c(1:5))
+  
+  # 실습 : 리스트 객체에 함수 적용하기
+  
+  a <- list(c(1:5))
 b <- list(c(6:10))
 lapply(c(a,b),max)
 
@@ -414,58 +414,3 @@ string_vec
 
 string_join <- paste(string_vec, collapse = ",")
 string_join
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
